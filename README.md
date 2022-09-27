@@ -44,22 +44,26 @@ To compile it you will need:
 After you have all of the above, navigate to the project's directory and build it with the makefile, the EXE will be in the bin directory.
 
 ## Visual Studio Setup
+
 - [VSNASM](https://github.com/ShiftMediaProject/VSNASM)
-	- Run install_script.bat
+    - Run install_script.bat
+
 - Add NASMPATH environment variable
 	- NASMPATH=C:\Users\<user>\AppData\Local\bin\NASM\
+
 - Open Visual Studio & Configure Settings
 	- Tools > Options > Projects and Solutions > VC++ Project Settings > Build Customization Search Path
 	- Set to %NASMPATH%;0
-	
-Optional:
-- ‘AsmDude‘ extension for syntax highlighting into .asm files.
+
+- You can also install [AsmDude](https://marketplace.visualstudio.com/items?itemName=Henk-JanLebbink.AsmDude) extension for syntax highlighting into .asm files.
 
 ## Contributors
 
 Thanks a lot to those people that contributed to this project:
 
 - [Orca](https://github.com/ORCx41)
+
+- [Xenov-X](https://github.com/Xenov-X)
 
 ## Resources
 
