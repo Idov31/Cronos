@@ -4,13 +4,13 @@
 
 ## This project was co-authored by
 
-<a href="https://github.com/idov31">![idov31](https://img.shields.io/badge/Idov31-FF1B2D?style=for-the-badge&logo=Idov31&logoColor=white)</a> <a href="https://github.com/janoglezcampos">![YXEL](https://img.shields.io/badge/YXEL-7D4698?style=for-the-badge&logo=YXEL&logoColor=white)</a>
+[![idov31](https://img.shields.io/badge/Idov31-FF1B2D?style=for-the-badge&logo=Idov31&logoColor=white)](https://github.com/idov31) [![YXEL](https://img.shields.io/badge/YXEL-7D4698?style=for-the-badge&logo=YXEL&logoColor=white)](https://github.com/janoglezcampos)
 
 ## Description
 
 PoC for a new sleep obfuscation technique (based on [Ekko](https://github.com/Cracked5pider/Ekko)) leveraging waitable timers to RC4 encrypt the current process and change the permissions from RW to RX to evade memory scanners.
 
-A more detailed explanation will be available in the blog post (COMING SOON).
+A more detailed explanation will be available in the [blog post](https://idov31.github.io/2022/11/06/cronos-sleep-obfuscation.html).
 
 ![POC](img/poc.png)
 
@@ -46,16 +46,16 @@ After you have all of the above, navigate to the project's directory and build i
 ## Visual Studio Setup
 
 - [VSNASM](https://github.com/ShiftMediaProject/VSNASM)
-    - Run install_script.bat
+  - Run install_script.bat
 
 - Add NASMPATH environment variable
-	- NASMPATH=C:\Users\<user>\AppData\Local\bin\NASM\
+  - NASMPATH=C:\Users\<user>\AppData\Local\bin\NASM\
 
 - Open Visual Studio & Configure Settings
-	- Tools > Options > Projects and Solutions > VC++ Project Settings > Build Customization Search Path
-	- Set to %NASMPATH%;0
+  - Tools > Options > Projects and Solutions > VC++ Project Settings > Build Customization Search Path
+  - Set to %NASMPATH%;0
 
-- You can also install [AsmDude](https://marketplace.visualstudio.com/items?itemName=Henk-JanLebbink.AsmDude) extension for syntax highlighting into .asm files.
+- You can also install the [AsmDude](https://marketplace.visualstudio.com/items?itemName=Henk-JanLebbink.AsmDude) extension for syntax highlighting into .asm files.
 
 ## Contributors
 
