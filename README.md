@@ -55,7 +55,7 @@ After you have all of the above, navigate to the project's directory and build i
   - Tools > Options > Projects and Solutions > VC++ Project Settings > Build Customization Search Path
   - Set to %NASMPATH%;0
 
-- You can also install the [AsmDude](https://marketplace.visualstudio.com/items?itemName=Henk-JanLebbink.AsmDude) extension for syntax highlighting into .asm files.
+- You can also install the [AsmDude](https://marketplace.visualstudio.com/items?itemName=Henk-JanLebbink.AsmDude) extension for syntax highlighting into .ASM files.
 
 ## Contributors
 
